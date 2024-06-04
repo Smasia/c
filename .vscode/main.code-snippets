@@ -1,0 +1,10 @@
+{
+	"Main": {
+		"scope": "c",
+		"prefix": ["Main", "Main-function"],
+		"body": [
+			"// $1\n#include <stdio.h>\n\nint main(void)\n{\n    $0\n}"
+		],
+		"description": "Create main function of file"
+	}
+}
